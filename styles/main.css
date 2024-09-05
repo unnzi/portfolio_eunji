@@ -1,0 +1,57 @@
+header {
+    background-image: url(../img/표지_복사.jpg);
+    width: 1920px; height: 1020px;
+}
+header h1 {
+    font-size: 100px;
+    position: relative;
+    top: 348px; left: 200px;
+}
+header p {
+    font-size: 20px;
+    position: relative;
+    left: 200px; top: 378px;
+}
+header .year {
+    position: absolute;
+    top: 75px;
+    right: 135px;
+    background-color: #FFFEEE;
+    padding: 10px 20px;
+    border-radius: 36px;
+    font-size: 16px;
+    border: 1px solid #DCD7C9;
+}
+.content {
+    background-image: url(../img/소개_복사.jpg);
+    width: 1920px; height: 1020px;
+}
+.content .info {
+    position: relative;
+    top: 140px; left: 734px;
+}
+.content .info h3 {
+    background-color: #E0EAFF;
+    padding: 10px 20px;
+    border-radius: 36px;
+    font-size: 16px;
+    border: 1px solid #DCD7C9;
+    width: 211px; height: 32px;
+}
+.content .info img {}
+.content .info .txt {
+    position: relative;
+    left: 60px; bottom: 28px;
+}
+.content .education {
+    position: relative;
+    left: 734px; top: 462px;
+}
+.content .license {
+    position: relative;
+    left: 1385px; bottom: 185px;
+}
+.content .skill {
+    position: relative;
+    left: 1385px; top: 260px;
+}

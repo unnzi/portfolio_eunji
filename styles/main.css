@@ -1,57 +1,142 @@
-header {
-    background-image: url(../img/표지_복사.jpg);
+.profille{
+    background-image: url(../img/profille.jpg);
     width: 1920px; height: 1020px;
+    font-size: 18px;
 }
-header h1 {
-    font-size: 100px;
-    position: relative;
-    top: 348px; left: 200px;
+.profille h3{
+    font-size: 25px;
+    background-color: #fff;
+    padding-top: 16px;
+    width: 177px; height: 61px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    text-align: center;
 }
-header p {
-    font-size: 20px;
-    position: relative;
-    left: 200px; top: 378px;
-}
-header .year {
-    position: absolute;
-    top: 75px;
-    right: 135px;
-    background-color: #FFFEEE;
-    padding: 10px 20px;
-    border-radius: 36px;
-    font-size: 16px;
-    border: 1px solid #DCD7C9;
-}
-.content {
-    background-image: url(../img/소개_복사.jpg);
-    width: 1920px; height: 1020px;
-}
-.content .info {
+.profille .me {
     position: relative;
     top: 140px; left: 734px;
 }
-.content .info h3 {
-    background-color: #E0EAFF;
-    padding: 10px 20px;
-    border-radius: 36px;
+.profille .me h3 {
+    margin-bottom: 40px;
+}
+.profille .me p {
+    margin-bottom: 17px;
+}
+.profille .me p span {
+    margin-left: 20px;
+}
+
+.profille .education {
+    position: relative;
+    left: 734px;
+    margin-top: 226px;
+}
+.profille .education h3 {
+    margin-bottom: 40px;
+}
+.profille .education p {
+    margin-bottom: 18px;
+}
+.profille .education p span {
+    margin-left: 20px;
+}
+.profille .license {
+    position: absolute;
+    right: 0;
+    margin-right: 238px;
+    bottom: -476px;
+}
+.profille .license h3 {
+    margin-bottom: 40px;
+}
+.profille .license p {
+    margin-bottom: 18px;
+}
+.profille .license span {
+    margin-left: 20px;
+}
+.profille .skill {
+    position: absolute;
+    right: 125px; bottom: -800px;
+}
+.profille .skill h3 {
+    margin-bottom: 40px;
+}
+.loccitane {
+    background-image: url(../img/locci.jpg);
+    width: 1920px; height: 1020px;
+    padding-top: 270px;
+}
+.loccitane .L_txt {
+    margin-left: 247px;
+    width: 452px;
+}
+.loccitane .L_txt .txt {}
+.loccitane .L_txt .txt h3 {
+    margin-bottom: 46px;
+    padding-left: 27px;
+}
+.loccitane .L_txt .txt p {
+    margin-bottom: 17px;
+}
+.loccitane .txt p img {
+    margin-left: 13px;
+    padding-top: 10px;
+}
+.loccitane .L_txt .txt p span {
+    margin-left: 32px;
+}
+.loccitane .txt p:nth-child(3) span {
+    margin-left: 50px;
+}
+.loccitane .L_txt .btn {
+    margin-top: 55px;
+}
+.loccitane .L_txt .btn a {
     font-size: 16px;
-    border: 1px solid #DCD7C9;
-    width: 211px; height: 32px;
+    width: 107px; height: 41px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 100px;
+    border: 1px solid #000;
+    margin-right: 13px;
 }
-.content .info img {}
-.content .info .txt {
-    position: relative;
-    left: 60px; bottom: 28px;
+.market {
+    background-image: url(../img/b.jpg);
+    width: 1920px; height: 1020px;
+    padding-top: 270px;
 }
-.content .education {
-    position: relative;
-    left: 734px; top: 462px;
+.market .L_txt {
+    margin-left: 247px;
+    width: 452px;
 }
-.content .license {
-    position: relative;
-    left: 1385px; bottom: 185px;
+.market .L_txt .txt h3 {
+    margin-bottom: 46px;
+    padding-left: 18px;
 }
-.content .skill {
-    position: relative;
-    left: 1385px; top: 260px;
+
+.market .L_txt .txt p {
+    margin-bottom: 17px;
+}
+.market .txt p img {
+    margin-left: 13px;
+    padding-top: 10px;
+}
+.market .L_txt .txt p span {
+    margin-left: 32px;
+}
+.market .txt p:nth-child(3) span {
+    margin-left: 50px;
+}
+.market .L_txt .btn {
+    margin-top: 55px;
+}
+.market .L_txt .btn a {
+    font-size: 16px;
+    width: 107px; height: 41px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 100px;
+    border: 1px solid #000;
+    margin-right: 13px;
 }

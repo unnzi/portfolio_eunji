@@ -92,14 +92,18 @@
 .loccitane .L_txt .btn {
     margin-top: 55px;
 }
+.loccitane .L_txt .btn a:hover {
+    background: #EEFFC6;   
+}
 .loccitane .L_txt .btn a {
+    display: inline-block;
     font-size: 16px;
-    width: 107px; height: 41px;
-    padding: 10px 10px;
+    line-height: 38px;
+    padding: 0px 20px;
     background-color: #fff;
     border-radius: 100px;
     border: 1px solid #000;
-    margin-right: 13px;
+    margin-right: 8px;
 }
 .market {
     background-image: url(../img/b.jpg);
@@ -131,12 +135,16 @@
 .market .L_txt .btn {
     margin-top: 55px;
 }
+.market .L_txt .btn a:hover {
+    background: #EEFFC6;   
+}
 .market .L_txt .btn a {
+    display: inline-block;
     font-size: 16px;
-    width: 107px; height: 41px;
-    padding: 10px 10px;
+    line-height: 38px;
+    padding: 0px 20px;
     background-color: #fff;
     border-radius: 100px;
     border: 1px solid #000;
-    margin-right: 13px;
+    margin-right: 8px;
 }

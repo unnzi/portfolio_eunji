@@ -1,7 +1,13 @@
+body,html {min-width:1920px; background-color:#F2F2F2;}
+section {
+    width: 1920PX; height: 1020px;
+    /* transform:translateY(-2px); */
+}
 .profille{
     background-image: url(../img/profille.jpg);
-    width: 1920PX; height: 1020px;
     font-size: 18px;
+    width: 1920px;
+    overflow: hidden;
 }
 .profille h3{
     font-size: 25px;
@@ -64,7 +70,6 @@
 }
 .loccitane {
     background-image: url(../img/locci.jpg);
-    width: 1920px; height: 1020px;
     padding-top: 270px;
 }
 .loccitane .L_txt {
@@ -107,7 +112,6 @@
 }
 .market {
     background-image: url(../img/b.jpg);
-    width: 1920px; height: 1020px;
     padding-top: 270px;
 }
 .market .L_txt {
@@ -147,4 +151,34 @@
     border-radius: 100px;
     border: 1px solid #000;
     margin-right: 8px;
+}
+.sns {
+    background-image: url(../img/sns-backg.png);
+}
+.sns .title {
+    font-size: 32px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.sns .snsimg {
+    width:1750px; margin:100px auto 0;
+    display:flex; justify-content: space-between;
+    padding-left: 30px;
+}
+.sns .snsimg img {
+    width: calc((100% / 4) - 10px);
+}
+.banner {
+    background-image: url(../img/banner-backgr.png);
+    width: 1920px; height:100vh;
+}
+.banner .bannerimg {
+    width:1680px; padding-top:100px; margin:0 auto;
+    display:flex; justify-content: space-between;
+    flex-flow:row wrap;
+    padding-left: 24px;
+}
+.banner .bannerimg img {
+    width: calc((100% / 2) - 10px);
+    margin-top:40px;
 }
